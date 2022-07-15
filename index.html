@@ -1,7 +1,11 @@
-<!DOCTYPE html></html>
-<html lang-"en">
+<!--如果沒設 你網頁容易發生無法預期的錯誤-->
+<!DOCTYPE html>
+<!-- 語系 "en" 表示英文 "zh-Hant" 表示繁體中文-->
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <!--設定網頁元的資訊，例如 編碼、Java s、css、font字形-->
+    <meta charset="UTF-8">
+    <!--顯示在網頁左上角-->
     <title>Document</title>
 </head>
 <body>
@@ -9,20 +13,39 @@
     <h1>This is heading</h1>
     <h2>This is heading</h2>
     <h3>This is heading</h3>
-    <!--我是備註-->
+     <!-- 我是備註 -->
     <p><strong>This</strong> is some content</p>
     <p><strong>This</strong> <i>i</i>s some content</p>
     <font size="1">文字</font></br>
     <font size="2">文字</font></br>
     <font size="3">文字</font></br>
 
-    <!--以下是語意標籤-->
+    <!-- 以下是語意標籤nav -->
     <nav class="menu">
+        <ul>
+          <li><a href="http://www.google.com">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
         <ul>
             <li><a href="http://www.google.com">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+          </ul>
+      </nav>
+
+      <h1>The Daily News</h1>
+
+      <article>
+        <h2>News 1</h2>
+        <!-- article content -->
+      </article>
+      
+      <article>
+          <h2>News 2</h2>
+          <!-- article content -->
+      </article>
+      
+
 </body>
 </html>
